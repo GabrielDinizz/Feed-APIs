@@ -1,0 +1,31 @@
+header {
+    background-color: #16181B;
+    padding: 1.5rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.name a{
+    text-decoration: none;
+}
+
+.divIcons {
+    display: flex;
+    gap: 2rem;
+}
+
+.divIcons img {
+    height: 30px;
+}
