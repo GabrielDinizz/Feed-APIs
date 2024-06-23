@@ -1,7 +1,11 @@
-import styles from '../components/header.module.css'
-import instaSVG from '../assets/instagram.svg'
-import gitSVG from '../assets/github.svg'
-import linkedinSVG from '../assets/linkedin-in.svg'
+
+import { Link } from 'react-router-dom'
+
+//Styles
+import styles from '../Header/header.module.css'
+import instaSVG from '../../assets/instagram.svg'
+import gitSVG from '../../assets/github.svg'
+import linkedinSVG from '../../assets/linkedin-in.svg'
 
 function Header() {
     return (
@@ -9,7 +13,7 @@ function Header() {
             <header>
                 <div className={styles.container}>
                     <div className={styles.name}>
-                        <a href=""><p>gabrieldiniz.dev</p></a>
+                        <Link to="/"><p>gabrieldiniz.dev</p></Link>
                     </div>
                     <div className={styles.divIcons}>
                         <img src={instaSVG} alt="" />

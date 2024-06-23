@@ -1,0 +1,38 @@
+.titulos {
+    font-family: 'Roboto';
+    color: #2E2E2E;
+}
+
+.titulos h2{
+    font-size: 64px;
+    text-align: center;
+}
+
+.titulos h3{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.img404 img {
+    width: 80vh;
+}
+
+.inicio {
+    color: #2E2E2E;
+    display: flex;
+}
+
+.inicio h3 {
+    align-self: center;
+    padding: 0 1rem;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.inicio img {
+    height: 3vh;
+    align-self: center;
+}
