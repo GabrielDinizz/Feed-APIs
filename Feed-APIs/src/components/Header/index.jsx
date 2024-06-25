@@ -16,9 +16,9 @@ function Header() {
                         <Link to="/"><p>gabrieldiniz.dev</p></Link>
                     </div>
                     <div className={styles.divIcons}>
-                        <img src={instaSVG} alt="" />
-                        <img src={gitSVG} alt="" />
-                        <img src={linkedinSVG} alt="" />
+                        <a href="https://www.instagram.com/gabrieldiniz.dev/" target="_blank"><img src={instaSVG} alt="" /></a>
+                        <a href="https://github.com/GabrielDinizz" target="_blank"><img src={gitSVG} alt="" /></a>
+                        <a href="https://br.linkedin.com/in/gabrieldinizcarreiro" target="_blank"><img src={linkedinSVG} alt="" /></a>
                     </div>
                 </div>
             </header>

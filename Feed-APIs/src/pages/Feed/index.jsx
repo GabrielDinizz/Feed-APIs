@@ -1,13 +1,12 @@
 import Header from '../../components/Header/index.jsx'
 import Container from '../../components/Container/index.jsx'
 
-function Home() {
+function Feed() {
   return (
     <>
-        Seja Bem vindo!
-        <button>Bora lá!</button>
+        Feed
     </>
   )
 }
 
-export default Home
+export default Feed;
