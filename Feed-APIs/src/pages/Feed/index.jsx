@@ -17,7 +17,7 @@ function Projetos() {
 
     return (
         <section className={styles.projetos}>
-            <h2>Projetos</h2>
+            <h2>Projetos GitHub</h2>
             {
                 repositories.length > 0 ? (
                     <section className={styles.lista}>
